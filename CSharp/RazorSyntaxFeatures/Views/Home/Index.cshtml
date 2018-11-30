@@ -1,0 +1,79 @@
+﻿<h1>Razor Syntaxt Features!</h1>
+<p>Follow along in the curriculum for explanations to each example.</p>
+
+<hr>
+
+<h2>1. Razor Expressions</h2>
+<p></p>
+<p>@(3 + 4)</p>
+
+<hr>
+
+<h2>2. Razor Property Access</h2>
+<p>The current date and time is: @DateTime.Now</p>
+
+<hr>
+
+<h2>3. Razor Code Blocks</h2>
+@{
+    var x = 21;
+    var y = 2;
+    var favoriteNumber = x * y;
+}
+
+<hr>
+
+<p>Favorite Number: @favoriteNumber</p>
+
+<hr>
+
+<h2>4. Razor HTML Encoded Strings vs Raw Strings</h2>
+<p>Expressions that evaluate to a string are HTML encoded:</p>
+@("<span>Hello World</span>")
+<p>Expressions that are processed with @@Html.Raw are not HTML encoded:</p>
+@Html.Raw("<span>Hello World</span>")
+
+<hr>
+
+<h2>5. Razor Looping Constructs</h2>
+<ol>
+    @for (var i = 1; i <= 5; i++)
+    {
+        <li>@(i * i)</li>
+    }
+</ol>
+
+<hr>
+
+<h2>6. Razor Conditional Constructs</h2>
+@{
+    int count = 1;
+}
+@while (count <= 5)
+{
+    if(count %2 == 0)
+    {
+        <p>@count is even.</p>
+    }
+    else
+    {
+        <p>@count is odd.</p>
+    }
+    count++;
+}
+<hr>
+<h2>7. Razor Exception Handling</h2>
+@try
+{
+    int one = 1;
+    int zero = 0;
+    int result = one / zero;
+}
+catch (Exception ex)
+{
+    <p>Exception.Message: @ex.Message</p>
+}
+finally
+{
+    <p>Finally Block</p>
+}

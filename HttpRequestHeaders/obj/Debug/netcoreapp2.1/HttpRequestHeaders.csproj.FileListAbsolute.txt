@@ -1,0 +1,14 @@
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/bin/Debug/netcoreapp2.1/HttpRequestHeaders.deps.json
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/bin/Debug/netcoreapp2.1/HttpRequestHeaders.runtimeconfig.json
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/bin/Debug/netcoreapp2.1/HttpRequestHeaders.runtimeconfig.dev.json
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/bin/Debug/netcoreapp2.1/HttpRequestHeaders.dll
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/bin/Debug/netcoreapp2.1/HttpRequestHeaders.pdb
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.csprojAssemblyReference.cache
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.csproj.CoreCompileInputs.cache
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.RazorAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.RazorAssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.AssemblyInfoInputs.cache
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.AssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.RazorTargetAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.dll
+/Users/cliff/Desktop/Programming/HttpRequestHeaders/obj/Debug/netcoreapp2.1/HttpRequestHeaders.pdb

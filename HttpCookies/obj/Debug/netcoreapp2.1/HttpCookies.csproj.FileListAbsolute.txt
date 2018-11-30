@@ -1,0 +1,14 @@
+/Users/cliff/Desktop/Programming/HttpCookies/bin/Debug/netcoreapp2.1/HttpCookies.deps.json
+/Users/cliff/Desktop/Programming/HttpCookies/bin/Debug/netcoreapp2.1/HttpCookies.runtimeconfig.json
+/Users/cliff/Desktop/Programming/HttpCookies/bin/Debug/netcoreapp2.1/HttpCookies.runtimeconfig.dev.json
+/Users/cliff/Desktop/Programming/HttpCookies/bin/Debug/netcoreapp2.1/HttpCookies.dll
+/Users/cliff/Desktop/Programming/HttpCookies/bin/Debug/netcoreapp2.1/HttpCookies.pdb
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.csprojAssemblyReference.cache
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.csproj.CoreCompileInputs.cache
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.RazorAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.RazorAssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.AssemblyInfoInputs.cache
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.AssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.RazorTargetAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.dll
+/Users/cliff/Desktop/Programming/HttpCookies/obj/Debug/netcoreapp2.1/HttpCookies.pdb

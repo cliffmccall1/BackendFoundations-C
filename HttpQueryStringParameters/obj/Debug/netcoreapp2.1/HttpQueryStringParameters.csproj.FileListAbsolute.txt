@@ -1,0 +1,14 @@
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/bin/Debug/netcoreapp2.1/HttpQueryStringParameters.deps.json
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/bin/Debug/netcoreapp2.1/HttpQueryStringParameters.runtimeconfig.json
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/bin/Debug/netcoreapp2.1/HttpQueryStringParameters.runtimeconfig.dev.json
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/bin/Debug/netcoreapp2.1/HttpQueryStringParameters.dll
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/bin/Debug/netcoreapp2.1/HttpQueryStringParameters.pdb
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.csprojAssemblyReference.cache
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.csproj.CoreCompileInputs.cache
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.RazorAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.RazorAssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.AssemblyInfoInputs.cache
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.AssemblyInfo.cs
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.RazorTargetAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.dll
+/Users/cliff/Desktop/Programming/HttpQueryStringParameters/obj/Debug/netcoreapp2.1/HttpQueryStringParameters.pdb
