@@ -2,78 +2,62 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace ScaffoldExistingExample.Models {
-    public partial class ApplicationDbContext : DbContext {
-        public ApplicationDbContext () { }
+namespace ScaffoldExistingExample.Models
+{
+    public partial class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext()
+        {
+        }
 
-        public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base (options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
 
-        public virtual DbSet<customers> customers { get; set; }
-        public virtual DbSet<tracks> tracks { get; set; }
+        public virtual DbSet<Invoices> Invoices { get; set; }
 
-        protected override void OnModelCreating (ModelBuilder modelBuilder) {
-            modelBuilder.HasAnnotation ("ProductVersion", "2.2.0-rtm-35687");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlite("Data Source=/Users/cliff/Desktop/Programming/CSharp/ScaffoldExistingExample/chinook.db");
+            }
+        }
 
-            modelBuilder.Entity<customers> (entity => {
-                entity.HasKey (e => e.CustomerId);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
 
-                entity.HasIndex (e => e.SupportRepId)
-                    .HasName ("IFK_CustomerSupportRepId");
+            modelBuilder.Entity<Invoices>(entity =>
+            {
+                entity.HasKey(e => e.InvoiceId);
 
-                entity.Property (e => e.CustomerId).ValueGeneratedNever ();
+                entity.ToTable("invoices");
 
-                entity.Property (e => e.Address).HasColumnType ("NVARCHAR(70)");
+                entity.HasIndex(e => e.CustomerId)
+                    .HasName("IFK_InvoiceCustomerId");
 
-                entity.Property (e => e.City).HasColumnType ("NVARCHAR(40)");
+                entity.Property(e => e.InvoiceId).ValueGeneratedNever();
 
-                entity.Property (e => e.Company).HasColumnType ("NVARCHAR(80)");
+                entity.Property(e => e.BillingAddress).HasColumnType("NVARCHAR(70)");
 
-                entity.Property (e => e.Country).HasColumnType ("NVARCHAR(40)");
+                entity.Property(e => e.BillingCity).HasColumnType("NVARCHAR(40)");
 
-                entity.Property (e => e.Email)
-                    .IsRequired ()
-                    .HasColumnType ("NVARCHAR(60)");
+                entity.Property(e => e.BillingCountry).HasColumnType("NVARCHAR(40)");
 
-                entity.Property (e => e.Fax).HasColumnType ("NVARCHAR(24)");
+                entity.Property(e => e.BillingPostalCode).HasColumnType("NVARCHAR(10)");
 
-                entity.Property (e => e.FirstName)
-                    .IsRequired ()
-                    .HasColumnType ("NVARCHAR(40)");
+                entity.Property(e => e.BillingState).HasColumnType("NVARCHAR(40)");
 
-                entity.Property (e => e.LastName)
-                    .IsRequired ()
-                    .HasColumnType ("NVARCHAR(20)");
+                entity.Property(e => e.InvoiceDate)
+                    .IsRequired()
+                    .HasColumnType("DATETIME");
 
-                entity.Property (e => e.Phone).HasColumnType ("NVARCHAR(24)");
-
-                entity.Property (e => e.PostalCode).HasColumnType ("NVARCHAR(10)");
-
-                entity.Property (e => e.State).HasColumnType ("NVARCHAR(40)");
-            });
-
-            modelBuilder.Entity<tracks> (entity => {
-                entity.HasKey (e => e.TrackId);
-
-                entity.HasIndex (e => e.AlbumId)
-                    .HasName ("IFK_TrackAlbumId");
-
-                entity.HasIndex (e => e.GenreId)
-                    .HasName ("IFK_TrackGenreId");
-
-                entity.HasIndex (e => e.MediaTypeId)
-                    .HasName ("IFK_TrackMediaTypeId");
-
-                entity.Property (e => e.TrackId).ValueGeneratedNever ();
-
-                entity.Property (e => e.Composer).HasColumnType ("NVARCHAR(220)");
-
-                entity.Property (e => e.Name)
-                    .IsRequired ()
-                    .HasColumnType ("NVARCHAR(200)");
-
-                entity.Property (e => e.UnitPrice)
-                    .IsRequired ()
-                    .HasColumnType ("NUMERIC(10,2)");
+                entity.Property(e => e.Total)
+                    .IsRequired()
+                    .HasColumnType("NUMERIC(10,2)");
             });
         }
     }
