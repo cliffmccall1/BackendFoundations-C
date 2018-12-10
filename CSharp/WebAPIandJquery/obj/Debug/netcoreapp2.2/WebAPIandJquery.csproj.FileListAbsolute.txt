@@ -1,0 +1,14 @@
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/bin/Debug/netcoreapp2.2/WebAPIandJquery.deps.json
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/bin/Debug/netcoreapp2.2/WebAPIandJquery.runtimeconfig.json
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/bin/Debug/netcoreapp2.2/WebAPIandJquery.runtimeconfig.dev.json
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/bin/Debug/netcoreapp2.2/WebAPIandJquery.dll
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/bin/Debug/netcoreapp2.2/WebAPIandJquery.pdb
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.csprojAssemblyReference.cache
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.csproj.CoreCompileInputs.cache
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.RazorAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.RazorAssemblyInfo.cs
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.AssemblyInfoInputs.cache
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.AssemblyInfo.cs
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.RazorTargetAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.dll
+/Users/cliff/Desktop/Programming/CSharp/WebAPIandJquery/obj/Debug/netcoreapp2.2/WebAPIandJquery.pdb

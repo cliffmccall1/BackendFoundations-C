@@ -1,0 +1,14 @@
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/bin/Debug/netcoreapp2.2/SimpleWebAPI.deps.json
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/bin/Debug/netcoreapp2.2/SimpleWebAPI.runtimeconfig.json
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/bin/Debug/netcoreapp2.2/SimpleWebAPI.runtimeconfig.dev.json
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/bin/Debug/netcoreapp2.2/SimpleWebAPI.dll
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/bin/Debug/netcoreapp2.2/SimpleWebAPI.pdb
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.csprojAssemblyReference.cache
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.csproj.CoreCompileInputs.cache
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.RazorAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.RazorAssemblyInfo.cs
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.AssemblyInfoInputs.cache
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.AssemblyInfo.cs
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.RazorTargetAssemblyInfo.cache
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.dll
+/Users/cliff/Desktop/Programming/CSharp/SimpleWebAPI/obj/Debug/netcoreapp2.2/SimpleWebAPI.pdb
